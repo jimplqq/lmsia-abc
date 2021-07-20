@@ -1,0 +1,10 @@
+com/lmsia/server/cglib/BookServiceBean.java
+ com.lmsia.server.cglib.BookServiceBean
+com/lmsia/server/cglib/MyProxyFilter.java
+ com.lmsia.server.cglib.MyProxyFilter
+com/lmsia/server/cglib/MyCglibProxy.java
+ com.lmsia.server.cglib.MyCglibProxy
+com/lmsia/server/cglib/BookServiceFactory.java
+ com.lmsia.server.cglib.BookServiceFactory
+com/lmsia/server/cglib/Client.java
+ com.lmsia.server.cglib.Client

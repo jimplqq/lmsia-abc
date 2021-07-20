@@ -1,0 +1,6 @@
+rootProject.name = 'lmsia-abc'
+include 'lmsia-abc-client'
+include 'lmsia-abc-common'
+include 'lmsia-abc-job'
+include 'lmsia-abc-server'
+

@@ -1,0 +1,28 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    maven { url 'http://maven.aliyun.com/nexus/content/groups/public' }
+    maven { url 'https://jitpack.io' }
+    mavenLocal()
+    mavenCentral()
+}
+
+dependencies {
+    compile project(':lmsia-abc-common')
+
+    compile 'org.springframework.boot:spring-boot-starter-web'
+
+    compile 'com.github.liheyuan:lmsia-thrift-server:0.0.1'
+    compile 'com.github.liheyuan:lmsia-commons-http:0.0.1'
+
+    testCompile 'org.springframework.boot:spring-boot-starter-test'
+}
+
+test {
+    useJUnitPlatform()
+}
